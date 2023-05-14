@@ -342,11 +342,11 @@ form p{
     .lugarFecha{
         flex-direction: column;
         align-items: center;
-        height: 140vh;
+        min-height: 140vh;
     }
     .left{
         width: 100%;
-        height: 50vh;
+        height: 50%;
         background-image: url("../assets/img/ba4.jpg");
         background-size: cover;
         background-position: center;
@@ -354,7 +354,10 @@ form p{
     }
     .right{
         width: 100%;
-        height: 90vh;
+        height: 85%;
+        max-height: 85%;
+        text-align: center;
+        padding-bottom: 1rem;
     }
     .formularioOrador{
         width: auto;
@@ -376,4 +379,3 @@ form p{
 
     }
 }
-
