@@ -227,7 +227,7 @@ body{
 }
 .formularioOrador{
     width: 50%;
-    height: 50vh;
+    height: 35vh;
     margin: 2rem auto;
     text-align: center;
 }
@@ -271,7 +271,7 @@ form p{
 }
 .footer{
     background:linear-gradient( to right, #1d3947,#1d4962, #1e5372) ;
-    height: 15vh;
+    height: 10vh;
 }
 .contenedorFooter{
     width:70%;
