@@ -1,0 +1,381 @@
+/*no va dentro de ningun condicional o media querie y es lo que llamamos escritorio primero
+1400 mayor 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anuphan', sans-serif;
+}
+.header{
+    height: 100vh;
+   
+}
+.headerNav{
+    height:15%;
+    background-color: rgb(53,58,64);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1rem 5rem;
+}
+.contenedorLogo{
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedorLogo a{
+    display: inline-block;
+    width: 40%;
+}
+.contenedorLogo img{
+    width: 100%;
+    object-fit: cover;
+}
+.contenedorLogo h2{
+    color: white;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.listaNav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+.linkNav{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#comprarTickets{
+    color:#2AA145;
+}
+.laConferencia{
+    height: 85%;
+    background:linear-gradient(to bottom,#00000026, #000000c2,#00000026), url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.contenedorTextConf{
+     width:40%;
+     color:white;
+     text-align: right;
+     font-size: x-large;
+}
+.contenedorTextConf h1{
+    margin-bottom: 1rem;
+}
+.contenedorTextConf p{
+    margin-bottom: 1rem;
+}
+.boton{
+    background-color: #2AA145; /* Green */
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    border: 2px solid #2AA145;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.botonTransparente{
+    background-color: transparent;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    border: 2px solid lightgray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.sectionOradores {
+    height:15%;
+    background-color: rgb(255, 255, 255);
+    padding:1rem 5rem;
+    text-align: center;
+}
+.padreCards{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height: 85%;
+    border: 1px solid rgb(169, 169, 169);
+    margin-left:15px;
+    border-radius: 4%;
+}
+.card img{
+    height:60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4% 4% 0px 0px;
+}
+.cardBody{
+    border-radius: 4%;
+    height:39%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding:0 1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+.temario{
+    display: flex;
+    padding-top: 1rem;
+}
+#tituloCardJavascript{
+    margin-right: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #F5DC1D;
+    background-color: #F5DC1D;
+    color: white;
+    font-weight: bold;
+}
+#tituloCardReact{
+    margin-right: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #5FE2FA;
+    background-color: #5FE2FA;
+    color: white;
+    font-weight: bold;
+}
+#tituloCardPython{
+    margin-right: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #3E7FB0;
+    background-color: #3E7FB0;
+    color: white;
+    font-weight: bold;
+}
+#tituloCardDjango{
+    margin-right: 0.8rem;
+    border-radius: 15%;
+    background-color:#092D1F;
+    color: white;
+}
+#tituloCardJava{
+    margin-right: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #FA9900;
+    background-color: #FA9900;
+    color: white;
+    font-weight: bold;
+}
+#tituloCardSpring{
+    margin-right: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #6DB33F;
+    background-color: #6DB33F;
+    color: white;
+    font-weight: bold;
+}
+.lugarFecha{
+    margin-top: 1rem;
+    display: flex;
+    color: white;
+    height: 55vh;
+    background:linear-gradient(to bottom,#00000026, #000000c2,#00000026);
+    align-items: stretch;
+}
+.left{
+    width: 49%;
+    border:1px solid rgb(0, 0, 0);
+    background-image: url("../assets/img/ba4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.right{
+    padding: 1% 1% 0% 1%;
+    width: 50%;
+    border:1px solid rgb(0, 0, 0);
+    background-color:#353A40;
+    color:white;
+    text-align: justify;
+}
+.right h2{
+    margin-bottom: 1rem;
+}
+.right p{
+    margin-bottom: 1rem;
+    line-height:1.7;
+}
+.formularioOrador{
+    width: 50%;
+    height: 50vh;
+    margin: 2rem auto;
+    text-align: center;
+}
+.formularioOrador p{
+    margin: 1rem;
+}
+.formularioOrador form{
+    margin: 1rem;
+}
+.inputNA{
+    width: 49%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 198, 198);
+    padding-left: 0.5rem;
+}
+.textArea{
+    width: 98%;
+    height: 6rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 198, 198);
+}
+form p{
+    margin: 0 auto;
+    text-align: left;
+    font-weight: lighter;
+}
+.formSubmit{
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #2AA145;
+    background-color: #2AA145;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.footer{
+    background:linear-gradient( to right, #1d3947,#1d4962, #1e5372) ;
+    height: 15vh;
+}
+.contenedorFooter{
+    width:70%;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorFooter a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/*  Diseño para celular     */
+/*  0 - 600px               */
+@media screen and (max-width: 567px){
+    .header{
+        height: initial;
+    }
+    .headerNav{
+        background-color: rgb(56, 56, 56);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: initial;
+        padding:1rem 1rem;
+    }
+    .contenedorLogo{
+        width:100%;
+    }
+    .listaNav{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .laConferencia{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: initial;
+        flex-direction: column;
+    }
+    .contenedorTextConf{
+        /*background:linear-gradient(to bottom, #000000c2, #000000c2);*/
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    .contenedorTextConf div a{
+        margin-bottom: 1rem;
+    }
+    .sectionOradores{
+        padding: 0;
+        margin: 0;
+    }
+    .padreCards{
+        flex-direction: column;
+    }
+    .card{
+        padding: 0;
+        margin: 0 1rem 1rem 1rem;
+        width: auto;
+    }
+    .lugarFecha{
+        flex-direction: column;
+        align-items: center;
+        height: 165vh;
+    }
+    .left{
+        width: 100%;
+        height: 30%;
+        background-image: url("../assets/img/ba4.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .right{
+        width: 100%;
+        height: 70%;
+    }
+    .formularioOrador{
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .footer {
+        margin: 1rem 0 0 0%;
+        padding: 0;
+        height: auto;
+        width: auto;
+    }
+    .contenedorFooter{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        height: 25vh;
+        width: auto;
+        justify-content: auto;
+
+    }
+}
+

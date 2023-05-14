@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codo a Codo</title>
+       
+        <!--    Favicon    -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+       
+        <!--    Fontawesome     -->
+        <script src="https://kit.fontawesome.com/c538ed8188.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <body>
+       <header class="header">
+            <div class="headerNav">
+                <div class="contenedorLogo">
+                    <a href="#">
+                        <img src="./assets/img/codoacodo.png" alt="Logo">
+                    </a>
+                    <h2>Conferencia Codo a Codo</h2>
+                </div>
+                <nav class="navegacion">
+                    <ul class="listaNav">
+                        <li><a class="linkNav" href="#laConferencia">La Conferencia</a></li>
+                        <li><a class="linkNav" href="#losOradores">Los Oradores</a></li>
+                        <li><a class="linkNav" href="#lugarYfecha">Lugar y La Fecha</a></li>
+                        <li><a class="linkNav" href="#convierteteEnOrador">Conviertete en Orador</a></li>
+                        <li><a id="comprarTickets" class="linkNav" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
+                    
+                    </ul>
+                </nav>
+            </div>  
+            <section id ="laConferencia" class="laConferencia">
+               <div class="contenedorTextConf">
+                    <h1>Conferencia Bs.As.</h1>
+                    <p class="parrafoConferencia">Codo a Codo llega por primera vez a la Argentina. 
+                        Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. 
+                        Ven a conocer a miembros del evento, a otros estudiantes de IT y a los oradores. ¡Te esperamos!</p>
+                    <div>
+                        <a class="botonTransparente" href="#convierteteEnOrador">Quiero ser orador</a>
+                        <a class="boton" href="./pages/comprar_tickets.html">Comprar tickets</a>
+                    </div>
+               </div>
+            </section>
+       </header>
+       <main>
+            <section id="losOradores" class="sectionOradores">
+                <h2 class="tituloRadores"><span>CONOCE A LOS</span> <br> ORADORES</h2>
+                <div class="padreCards">
+                    <div class="card" id="cardUno">
+                        <img src="./assets/img/steve.jpeg" alt="Steve Jobs">
+                        <div class="cardBody">
+                            <div class="temario">
+                                <h4 id="tituloCardJavascript">Javascript</h4>
+                                <h4 id="tituloCardReact">React</h4>
+                            </div>
+                            <h2>Steve Jobs</h2>
+                            <p>Steven Paul Jobs es un empresario, diseñador industrial, magnate empresarial, propietario de medios 
+                                e inversor estadounidense. Es cofundador y presidente ejecutivo de Apple y 
+                                máximo accionista individual de The Walt Disney Company</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/bill.jpg" alt="Bill Gates">
+                        <div class="cardBody">
+                            <div class="temario">
+                                <h4 id="tituloCardPython">Python</h4>
+                                <h4 id="tituloCardDjango">Django</h4>
+                            </div>
+                            <h2>Bill Gates</h2>
+                            <p>Bill Gates, es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. 
+                                Es uno de los empresarios más conocidos que surgieron durante los inicios de los ordenadores personales</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/ada.jpeg" alt="Ada">
+                        <div class="cardBody">
+                            <div class="temario">
+                                <h4 id="tituloCardJava">Java</h4>
+                                <h4 id="tituloCardSpring">Spring</h4>
+                            </div>
+                            <h2>Ada Lovelace</h2>
+                            <p>Ada Lovelace es una matemática y escritora británica, célebre por su trabajo acerca de la computadora mecánica
+                                 de uso general de Charles Babbage, la denominada máquina analítica. Se la considera como la primera programadora de ordenadores</p>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            <section id="lugarYfecha" class="lugarFecha">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Buenos Aires</h2>
+                    <p>Buenos Aires es la capital y ciudad más poblada de la República Argentina. Es una ciudad cosmopolita y un importante destino turístico. Su compleja infraestructura la convierte en 
+                    una de las metrópolis de mayor importancia de América y es una ciudad global de categoría alfa, dadas sus influencias en el comercio, finanzas, moda, arte, gastronomía, educación, entretenimiento 
+                    y principalmente en su marcada cultura. <br>
+                    Según un estudio de calidad de vida (2019) de Mercer Human Resource Consulting, la ciudad se encuentra en la posición 91 a nivel mundial y segunda de América 
+                    Latina tras Montevideo. Su renta per cápita es de las más altas de la región. <br>
+                    En 2022, fue la ciudad más visitada de Latinoamérica. Es considerada una de las 25 ciudades más influyentes del mundo. <br>
+                    Su perfil urbano es marcadamente ecléctico. Se mezclan los estilos colonial español, art decó, art nouveau, neogótico, italianizante, francés borbónico y academicismo francés. Por esto último sumado
+                    a su desarrollo edilicio y marcada influencia europea en su arquitectura en determinadas zonas, es que se la conoce en el mundo por el apodo de «La París de América».</p>
+                    <a class="botonTransparente" href="">Conocé Más</a>
+                </div>
+            </section>
+            <section id="convierteteEnOrador" class="formularioOrador">
+                <h2><span>CONVIERTETE EN UN </span> <br> ORADOR</h2>
+                <p>¡Anotate para dar una charla sobre el tema que quieras!</p>
+                <form action="" autocomplete="on">
+                    <div>
+                        <input class="inputNA" type="text" placeholder="Nombre" required>
+                        <input class="inputNA" type="text" placeholder="Apellido" required>
+                    </div>
+                    <div>
+                        <textarea class="textArea" name="" id="" cols="44" rows="6" placeholder="¿Sobre que quieres hablar?" required></textarea>
+                    </div>
+                    <p>Recuerda incluir un título para tu charla</p>
+                    <div>
+                        <input type="submit" value="Enviar" class="formSubmit">
+                    </div>
+                </form>
+            </section>
+       </main>
+       <footer class="footer">
+            <div class="contenedorFooter">
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Contactanos</a>
+                <a href="">Prensa</a>
+                <a href="">Conferencias</a>
+                <a href="">Términos y condiciones</a>
+                <a href="">Privacidad</a>
+                <a href="">Estudiantes</a>
+            </div>
+       </footer>
+    </body>
+</html>
